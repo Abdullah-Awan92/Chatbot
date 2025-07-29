@@ -1,0 +1,46 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore mypy and Pyre type checker
+.mypy_cache/
+.pyre/
+
+# Ignore test coverage data
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ignore IDEs and editors files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive data files
+.env
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+
+# Ignore ChromaDB files 
+chromaDB/

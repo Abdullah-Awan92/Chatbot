@@ -1,0 +1,13 @@
+# config.yaml
+
+database:
+  uri: "mongodb://localhost:27017/"
+  name: "mutual_fund_chatbot"
+  collection: "chat_history"
+
+openai:
+  api_key: "your_openai_api_key"
+
+app:
+  host: "0.0.0.0"
+  port: 8000
